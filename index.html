@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<script src="js/jquery-2.1.1.js"></script>
+		<script src="js/handlebars-v1.3.0.js"></script>
+		<script src="js/ember.prod.js"></script>
+		<script src="js/ember-data.js"></script>
+		<script src="app.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen">
+
+	</head>
+<body>
+  <body>
+  <script type="text/x-handlebars" data-template-name='application'>
+          
+  <div class='navbar navbar-default'>
+    <div class='container'>
+      <a href='#' class='navbar-brand'><img src='images/logo.png' alt='logo' height='34' width='224' /></a>
+      <ul class='nav navbar-nav navbar-right'>
+        <li class='active'><a href='#/'>Home</a></li>
+        <li><a href='#/aboutus'>About</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class='container'>
+    {{outlet}}
+  </div>
+
+  <footer class='container'>
+    <hr />
+    <p class='pull-left'>&copy; 2014 The Flint &amp; Flame</p>
+    <p class='pull-right'><a href='#/credits'>Credits</a></p>
+  </footer>
+  </script>
+
+  <script type="text/x-handlebars" data-template-name='index'>
+    <h1>Welcome to The Flint & Flame!</h1>
+  </script>  
+
+  <script type="text/x-handlebars" data-template-name='about'>
+    <h1>About to The Flint & Flame!</h1>
+  </script>
+
+</body>
+</html>
