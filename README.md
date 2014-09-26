@@ -1,4 +1,1 @@
-EmberJS-WarmingUp
-=================
-
-Codeschools first Emberjs Section.  Great starter project for those new to ember.  Be sure to check it out at http://ember.codeschool.com/levels/1
+Hey this is the future portfolio of Nic Nash!  feel free to ask me any questions about it, I'd love to help ^^.
